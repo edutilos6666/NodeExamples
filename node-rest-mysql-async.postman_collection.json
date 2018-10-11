@@ -1,0 +1,403 @@
+{
+	"info": {
+		"_postman_id": "07411cc1-0fd5-498f-a0ab-5f492a8cf4d2",
+		"name": "node-rest-mysql-async",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "fdb0c761-227c-461b-91bf-8a72374ad1cc",
+			"name": "save_4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "4",
+							"sessionValue": "5",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "pako",
+							"sessionValue": "ronaldo",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "40",
+							"sessionValue": "50",
+							"type": "text"
+						},
+						{
+							"key": "wage",
+							"value": "400.0",
+							"sessionValue": "500.0",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "false",
+							"sessionValue": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/students",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "95b4cda8-1031-4fef-bda8-7e1eb138d969",
+			"name": "save_3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "3",
+							"sessionValue": "5",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "bim",
+							"sessionValue": "ronaldo",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "30",
+							"sessionValue": "50",
+							"type": "text"
+						},
+						{
+							"key": "wage",
+							"value": "300.0",
+							"sessionValue": "500.0",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "true",
+							"sessionValue": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/students",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "21c5a6f3-3951-4059-8ea6-b187746bd817",
+			"name": "save_1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1",
+							"sessionValue": "5",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "foo",
+							"sessionValue": "ronaldo",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "10",
+							"sessionValue": "50",
+							"type": "text"
+						},
+						{
+							"key": "wage",
+							"value": "100.0",
+							"sessionValue": "500.0",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "true",
+							"sessionValue": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/students",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "971fef93-2c24-4d60-94f4-538fad42e5cb",
+			"name": "save_2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "2",
+							"sessionValue": "5",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "bar",
+							"sessionValue": "ronaldo",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "20",
+							"sessionValue": "50",
+							"type": "text"
+						},
+						{
+							"key": "wage",
+							"value": "200.0",
+							"sessionValue": "500.0",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "false",
+							"sessionValue": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/students",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "bfe0ec8c-c942-4482-a83d-1b091856e091",
+			"name": "findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/students",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "56c33082-8412-4230-aaec-2bd4fbd8b522",
+			"name": "find(id=1)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/students/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "4a9a3a90-7b24-4c53-9028-9e15009e9d91",
+			"name": "find(id=2)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/students/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "5ff01a78-ee0b-4261-8e30-e2ef977b1a34",
+			"name": "update(id=1)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1",
+							"sessionValue": "5",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "new-foo",
+							"sessionValue": "ronaldo",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "66",
+							"sessionValue": "50",
+							"type": "text"
+						},
+						{
+							"key": "wage",
+							"value": "666.6",
+							"sessionValue": "500.0",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "false",
+							"sessionValue": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/students/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "46db7fad-7288-4ea6-ada4-068d519ec890",
+			"name": "remove(id=1)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/students/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
